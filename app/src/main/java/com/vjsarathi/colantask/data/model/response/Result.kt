@@ -1,5 +1,9 @@
 package com.vjsarathi.colantask.data.model.response
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class Result(
     val created: String,
     val episode: List<String>,
@@ -13,4 +17,4 @@ data class Result(
     val status: String,
     val type: String,
     val url: String
-)
+) : Parcelable
