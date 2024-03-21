@@ -1,10 +1,7 @@
 package com.vjsarathi.colantask.presentation.activity
 
 import android.os.Bundle
-import androidx.lifecycle.ViewModelProvider
 import com.vjsarathi.colantask.databinding.ActivityMainBinding
-import com.vjsarathi.colantask.presentation.viewmodel.HomeScreenViewModel
-import com.vjsarathi.colantask.uiUtils.ProgressDialog
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

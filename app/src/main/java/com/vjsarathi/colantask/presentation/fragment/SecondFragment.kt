@@ -2,18 +2,15 @@ package com.vjsarathi.colantask.presentation.fragment
 
 import android.os.Build
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.annotation.RequiresApi
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.navigation.fragment.findNavController
 import com.vjsarathi.colantask.Constants.Constants
 import com.vjsarathi.colantask.R
 import com.vjsarathi.colantask.data.model.response.Result
 import com.vjsarathi.colantask.databinding.FragmentSecondBinding
-import com.vjsarathi.colantask.presentation.viewmodel.HomeScreenViewModel
 import com.vjsarathi.colantask.uiUtils.BindingAdapter.loadImageWithURL
 
 class SecondFragment : Fragment() {
